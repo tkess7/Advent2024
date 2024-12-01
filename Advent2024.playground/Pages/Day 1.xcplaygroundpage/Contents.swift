@@ -21,3 +21,4 @@ let zipped = zip(sortedLeft, sortedRight)
 let result = zipped.map { left, right in
     return abs(left - right)
 }.reduce(0, +)
+
